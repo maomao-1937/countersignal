@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "idea": {
+    "name": "Invoice follow-up helper (synthetic example)",
+    "target_user": "Freelancers who send recurring invoices",
+    "problem": "Some freelancers may forget when to follow up on late invoices"
+  },
+  "evidence": [
+    {
+      "id": "pain-a",
+      "kind": "pain",
+      "voice": "first_hand",
+      "channel": "community-a",
+      "author": "sample-user-a",
+      "published_at": "2026-05-01",
+      "url": "https://example.org/community-a/1",
+      "thread_url": "https://example.org/community-a/1",
+      "claim": "I forget to send reminders for overdue client invoices.",
+      "observation": "Synthetic user says late invoices are tracked in a spreadsheet."
+    },
+    {
+      "id": "pain-b",
+      "kind": "pain",
+      "voice": "first_hand",
+      "channel": "community-b",
+      "author": "sample-user-b",
+      "published_at": "2026-06-10",
+      "url": "https://example.org/community-b/2",
+      "thread_url": "https://example.org/community-b/2",
+      "claim": "I forget to remind clients when their invoices are overdue.",
+      "observation": "Synthetic user says they manually check payment status and reminders each week."
+    },
+    {
+      "id": "pain-c",
+      "kind": "pain",
+      "voice": "first_hand",
+      "channel": "community-a",
+      "author": "sample-user-c",
+      "published_at": "2026-07-01",
+      "url": "https://example.org/community-a/3",
+      "thread_url": "https://example.org/community-a/3",
+      "claim": "I spend too much time reconciling different tax rates on invoices.",
+      "observation": "Synthetic user talks about tax-rate reconciliation, a different problem."
+    },
+    {
+      "id": "workaround-a",
+      "kind": "workaround",
+      "voice": "reported",
+      "channel": "community-a",
+      "author": "sample-user-a",
+      "published_at": "2026-05-01",
+      "url": "https://example.org/community-a/1",
+      "claim": "The author uses a spreadsheet for reminders.",
+      "observation": "Synthetic workaround."
+    },
+    {
+      "id": "counter-a",
+      "kind": "counter",
+      "voice": "first_hand",
+      "channel": "community-c",
+      "author": "sample-user-d",
+      "published_at": "2026-07-10",
+      "url": "https://example.org/community-c/4",
+      "claim": "My accounting software already sends reliable overdue invoice reminders.",
+      "observation": "Synthetic satisfied-user counter-signal."
+    },
+    {
+      "id": "competitor-a",
+      "kind": "competitor",
+      "voice": "product_claim",
+      "channel": "product-directory",
+      "author": "sample-vendor",
+      "published_at": "2026-07-10",
+      "url": "https://example.org/product/5",
+      "claim": "A sample product claims to automate late invoice reminders.",
+      "observation": "Synthetic competitor placeholder; verify real alternatives for an actual idea."
+    }
+  ]
+}

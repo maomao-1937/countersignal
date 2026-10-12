@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "countersignal"
+version = "0.1.0"
+description = "Local, review-first evidence audit for product ideas"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["torch>=2.5,<3", "transformers>=4.48,<5", "PySocks>=1.7,<2"]
+
+[project.scripts]
+countersignal = "countersignal.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
